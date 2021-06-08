@@ -21,21 +21,23 @@
         .navbar-scroller > *
 
     EX3) Write a selector to target the "continue reading..." inside the jumbotron
-        .lead > a 
+        .lead a[href^="#"] 
 
     EX4) Write a selector to target the first blogpost
-        h2:first-of-type
+        .blog-post:first-of-type(1)
 
     EX5) Write a selector to target the "even" links in the navbar
-        div.navbar-scroller:nth-child(2n)
+        nav:nth-child(2n)
 
     EX6) Write a selector to target the last blog post
         h2:last-of-type
         
     EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives )
     EX8) Write a selector to target the second post author
+    .blog-post:nth-child(2)
     EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
+        p:last-of-type a
             EX10) Write a selector to target the footer
 
-            footer{}
+            footer
     </style>
