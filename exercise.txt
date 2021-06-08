@@ -36,4 +36,6 @@
     EX8) Write a selector to target the second post author
     EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
             EX10) Write a selector to target the footer
+
+            footer{}
     </style>
